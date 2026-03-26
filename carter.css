@@ -42,13 +42,42 @@ div.menu {
   div.about {
   background-color: #e4e2da;
   text-align: left;
-  width: 48%;
+  width: 65%;
   height: auto;
   display: block;
   margin-left: 17%;
   margin-right: auto;
-  padding: 4%
+  padding: 3%;
+  border-style: solid;
+  border-radius: 1px;
+  border-width: 1px;
+  border-color: #4d4f4b;
 }
+
+.button {
+  border-style: solid;
+  border-radius: 1px;
+  border-width: 1px;
+  border-color: #444444;
+  background-color: #4d4f4b;
+  color: #e4e2da;
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+  margin:auto;
+  display:block;
+  }
+
+  .button a {
+    font-family: 'Courier New', monospace;
+    color: #e4e2da;
+      font-size: calc(10px + 0.25vw);
+        }
+
+        .button a:hover {
+        font-style: italic;
+        }
+
 
   .about h1  {
   font-family: 'Courier New', monospace;
@@ -58,8 +87,9 @@ div.menu {
   }
 
   .about p {
-      font-family: 'Courier New', monospace;
-      font-size: calc(8px + 0.35vw);
+      font-size: calc(10px + 0.25vw);
+      color: #4d4f4b;
+      line-height: 130%;
         }
 
          /* PHOTOS */
@@ -104,9 +134,5 @@ div.menu {
       padding: 2%;
           }
 
-  .about p {
-   font-family: 'Courier New', monospace;
-   font-size: calc(12px + 0.45vw);
-                }
 
               }
